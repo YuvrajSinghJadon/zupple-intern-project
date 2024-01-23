@@ -1,4 +1,4 @@
-# Project Title
+# Zupple Intern Project
 
 Welcome! This project is a comprehensive application that seamlessly integrates
 form submission with database updates and provides an interactive interface for
@@ -33,7 +33,7 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/YuvrajSinghJadon/zupple-intern-project.git
-   cd frontend 
+   cd frontend
    ```
 
 2. Install Dependencies:
@@ -45,7 +45,7 @@ Make sure you have the following installed:
 
 # Link For Website
 
-[Your Project Name](https://your-website-link.com)
+[Click Here](https://65affc51f4f1251699df155b--merry-quokka-5508f4.netlify.app/)
 
 ## Tech Stack
 
