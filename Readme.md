@@ -7,8 +7,8 @@ fill out essential details.
 
 ## Screenshots
 
-![Form Image](./frontend/public/blockchain.png)
-![Blockchain Image](./frontend/public/form.png)
+![Form Image](./frontend/public/form.png)
+![Blockchain Image](./frontend/public/blockchain.png)
 
 ## Features
 
