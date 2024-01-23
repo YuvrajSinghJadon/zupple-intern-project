@@ -4,10 +4,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#1F253A",
+        primary: "#002244",
         purple: "#242E4C",
         text: "#97A5CE",
         inputText: "#7D7A9E",
+        customBlue: "#002D62",
+        sapphire: "#1E2952",
+        secondry: "#1e202e",
+        // tertiary: '#26293b',
       },
     },
   },

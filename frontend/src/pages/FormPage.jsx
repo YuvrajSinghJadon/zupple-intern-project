@@ -1,9 +1,9 @@
-import Form from "../components/Formsecond.jsx";
+import Form from "../components/UploadFormComponents/Formsecond.jsx";
 
 const form = () => {
   return (
     <main className="">
-        <Form />
+      <Form />
     </main>
   );
 };

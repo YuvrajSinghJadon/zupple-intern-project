@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import circle from "../assets/circle.png";
+import circle from "../../assets/circle.png";
+import Button from "../Button";
 
 const Form = () => {
   const [formData, setFormData] = useState({
@@ -50,7 +51,7 @@ const Form = () => {
       });
     }
   };
-
+  const [active, setActive] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -97,9 +98,7 @@ const Form = () => {
       setFormErrors(errors);
       return;
     }
-
     // If all validations pass, you can proceed with the form submission
-    console.log("Form submitted:", formData);
     setFormData({
       password: "",
       title: "",
@@ -110,12 +109,13 @@ const Form = () => {
       thumbnailImage: "",
       sourceFile: "",
     });
+    alert("Form submitted!");
     // Add your logic for handling form submission (e.g., sending data to a server)
   };
 
   return (
     <main
-      className="flex items-center justify-center min-h-screen"
+      className="relative flex items-center justify-center min-h-screen bg-tertiary"
       style={{
         backgroundImage: `url(${circle}),url(${circle}),url(${circle})`,
         backgroundSize: "400px,300px,150px",
@@ -123,6 +123,7 @@ const Form = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
+      <Button />
       <div className="bg-purple opacity-80 m-5 p-8 rounded-lg text-white lg:px-52  bg-cover">
         <div className="text-3xl font-semibold text-center mb-6">
           Upload Files
