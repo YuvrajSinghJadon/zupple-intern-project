@@ -33,7 +33,7 @@ Make sure you have the following installed:
 
    ```bash
    git clone https://github.com/YuvrajSinghJadon/zupple-intern-project.git
-   cd
+   cd frontend 
    ```
 
 2. Install Dependencies:

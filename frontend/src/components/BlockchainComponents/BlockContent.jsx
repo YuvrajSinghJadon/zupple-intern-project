@@ -11,12 +11,11 @@ export const BlockContent = ({ block }) => {
           {block.BlockNumber}
         </span>
       </h1>
-      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center max-h-96  overflow-y-scroll   md:w-full bg-tertiary py-4 lg:py-5 ">
+      <div className="flex flex-col lg:flex-row justify-center lg:justify-evenly items-center max-h-96  overflow-y-scroll   md:w-full bg- py-4 lg:py-5 bg-tertiary">
         <div className="lg:w-1/2 w-full">
           <BlockDetails label="Hash" value={block.Hash} index={1} />
           <BlockDetails label="TimeStamp" value={block.Timestamp} index={2} />
           <BlockDetails label="Size" value={block.Size} index={3} />
-          <BlockDetails label="Weight" value={block.Weight} index={4} />
         </div>
 
         <div className="lg:w-1/2 w-full">

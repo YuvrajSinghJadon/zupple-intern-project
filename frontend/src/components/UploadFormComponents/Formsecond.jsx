@@ -115,7 +115,7 @@ const Form = () => {
 
   return (
     <main
-      className="relative flex items-center justify-center min-h-screen bg-primary"
+      className="relative flex flex-col items-center justify-center min-h-screen bg-primary"
       style={{
         backgroundImage: `url(${circle}),url(${circle}),url(${circle})`,
         backgroundSize: "400px,300px,150px",

@@ -7,7 +7,7 @@ const TransactionsDisplay = ({ transactions }) => {
       {transactions.map((transaction, index) => (
         <div
           key={index}
-          className={`w-full bg-primary p-2 flex flex-col  justify-between items-center rounded-md shadow-md ${
+          className={`w-full bg-tertiary p-2 flex flex-col  justify-between items-center rounded-md shadow-md ${
             index % 2 === 0 ? "bg-odd" : "bg-even"
           }`}
         >

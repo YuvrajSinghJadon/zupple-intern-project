@@ -11,7 +11,7 @@ export default {
         customBlue: "#002D62",
         sapphire: "#1E2952",
         secondry: "#1e202e",
-        // tertiary: '#26293b',
+        tertiary: '#26293b',
       },
     },
   },
