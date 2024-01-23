@@ -42,3 +42,23 @@ Make sure you have the following installed:
    npm install
    npm run dev
    ```
+
+# Link For Website
+
+[Your Project Name](https://your-website-link.com)
+
+## Tech Stack
+
+- React
+- Tailwind CSS
+- Node.js
+- Express
+- MongoDB
+
+## Contributing
+
+Contributions to the project are welcome!. Feel free to submit bug reports, feature requests, or pull requests.
+
+## Acknowledgements
+
+Special thanks to team zupple for the opportunity.
