@@ -32,7 +32,7 @@ function Blockchain() {
 
   return (
     <>
-      <div className="flex justify-around mt-6 mb-3 gap-6 text-center overflow-scroll ">
+      <div className="flex justify-around mt-6 mb-3 gap-6 text-center overflow-scroll sm:overflow-hidden">
         {serialNumbers.map((num, index) => (
           <span
             onClick={handleOnClick}
